@@ -1,0 +1,25 @@
+{
+  "name": "seco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@syncfusion/ej2-vue-schedule": "^19.2.60",
+    "@vue/compiler-sfc": "^3.2.12",
+    "lodash": "^4.17.21",
+    "vue-class-component": "^8.0.0-rc.1",
+    "vue-loader": "^16.5.0",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0"
+  },
+  "devDependencies": {
+    "css-loader": "^6.2.0",
+    "style-loader": "^3.2.1",
+    "vue": "^3.2.12"
+  }
+}
