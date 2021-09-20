@@ -16,9 +16,10 @@ import _ from 'lodash';
 
  import { createApp } from 'vue';
  import hola from './hola.vue';
+ import sch from './schedule.vue';
  const app = createApp({});
 
  app.component('hii', hola);
-
+ app.component('sch', sch);
  app.mount("#app");
  window.Vue = app;
